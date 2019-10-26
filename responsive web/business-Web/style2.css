@@ -1,0 +1,53 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+#nav-bar
+{
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, .3),rgba(0, 0, 0, .3));
+}
+.navbar-brand img
+{
+    padding-left: 30px;
+    height: 40px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: 600; 
+}
+.navbar-nav li a
+{
+   float: right;
+   text-align: left;
+   color: #ecf0f1 !important;
+}
+.navbar-nav li a:hover
+{
+    color: #007bff !important;
+}
+.navbar-toggler
+{
+    border: none !important;
+    cursor: pointer !important;
+}
+/*----End nav-bar section----*/
+/*----Home section----*/
+/*----End home section----*/
+/*----Feature section----*/
+/*----End feature section----*/
+/*----Review section----*/
+/*----End review section----*/
+/*----Hot anime section----*/
+/*----End hot anime section----*/
+/*----Hot manga section----*/
+/*----End hot anime section----*/
+/*----Product section----*/
+/*----End product section----*/
+

@@ -1,0 +1,118 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#header
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img-travel/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.head
+{
+    position: sticky;
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    z-index: 10;
+}
+.img-box
+{
+    width: 200px;
+    height: 50px;
+    left: 0px !important;
+}
+.img-box img
+{
+    padding: 0px 10px;
+}
+.head .login-box
+{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.head .login-box:hover
+{
+    border: 2px solid #4cd137;
+}
+.login-box h3
+{
+    color: #fff;
+    font-size: 24px;
+    line-height: 45px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.search-box
+{
+    margin-top: 150px;
+}
+.search-box h1
+{
+    padding-bottom: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 42px;
+    letter-spacing: 10px;
+}
+.search-box p
+{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.search-content
+{
+    position: relative;
+    width: 50%;
+    height: 40px;
+    padding: 10px 0px;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 10px 20px 20px 10px;
+    margin: auto;
+}
+.search-content input
+{
+    position: relative;
+    width: 50%;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff ;
+    float: left;    
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.search-content .fa
+{
+    position: relative;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    line-height: 30px;
+    padding: 5px;
+    margin-top: -10px;
+    cursor: pointer;
+}
